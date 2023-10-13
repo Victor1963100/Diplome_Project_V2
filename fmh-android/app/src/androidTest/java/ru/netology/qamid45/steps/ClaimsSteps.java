@@ -168,6 +168,13 @@ public class ClaimsSteps {
                 .perform(click());
     }
 
+    public static void clickButtonAllClaims() {
+        Allure.step("Проверка загрузки экрана с заявками");
+        waitUntilElement(R.id.save_button);
+        onView(getClaimsElementsButtonSave())
+                .perform(click());
+    }
+
     public static void clickButtonOkError() {
         Allure.step("Нажать кнопку ОК");
         waitUntilElement(android.R.id.button1);
