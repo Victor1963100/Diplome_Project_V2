@@ -143,6 +143,7 @@ public class NewsControlPanelTest {
         NewsControlPanelSteps.clickButtonOkTimeCreatingNews();
         NewsControlPanelSteps.clickDescriptionCreatingNews();
         NewsControlPanelSteps.clickButtonSaveCreatingNews();
+        NewsControlPanelSteps.clickButtonAllNews();
     }
 
     @Test
