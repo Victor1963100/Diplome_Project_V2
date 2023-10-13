@@ -225,4 +225,11 @@ public class NewsControlPanelSteps {
         onView(getNewsControlPanelElementsButtonSaveCreatingNews())
                 .perform(scrollTo(), click());
     }
+
+    public static void clickButtonAllNews() {
+        Allure.step("Проверка загрузки экрана с новостями");
+        waitUntilElement(R.id.save_button);
+        onView(getClaimsElementsButtonSave())
+                .perform(click());
+    }
 }
