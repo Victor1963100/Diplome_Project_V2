@@ -103,6 +103,7 @@ public class ClaimsTest {
         ClaimsSteps.clickButtonOkTime();
         ClaimsSteps.clickDescriptionField();
         ClaimsSteps.clickButtonSave();
+        ClaimsSteps.clickButtonAllClaims();
     }
 
     @Test
